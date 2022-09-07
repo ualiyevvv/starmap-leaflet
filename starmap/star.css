@@ -1,0 +1,177 @@
+.mapContainer {
+    width: 745px;
+    height: 1053.5px;
+    background-size: cover;
+    display: table-cell;
+    top: -200px;
+    margin: 0 295px;
+    position: relative;
+    left: 132px;
+}
+.optionsContainer {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 7px 0 33px !important;
+    z-index: 99999;
+    top: 77px;
+    transition: .2s;
+    height: 165px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    width: 245px;
+    position: relative;
+    float: left;
+    height: 1085px;
+}
+#starmap{
+    position: relative;
+    top: 61px !important;
+    left: -2px;
+    font-family: Phenomena-Regular;
+    font-size: 8px;
+    width: 515px;
+    height: 515px;
+    overflow: hidden;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+p.text.title {
+    font-size: 27px;
+    word-wrap: break-word;
+    color: #152835;
+    top: 135px;
+    font-family: 'Phenomena-Regular';
+    height: 110px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 73px;
+    left: 55px;
+    position: relative;
+    text-align: center;
+    width: 520px;
+    white-space: break-spaces;
+    font-variant: no-contextual;
+}
+p.text {
+    text-align: center;
+    position: relative;
+    top: 110px;
+    margin: 0 auto;
+    color: white !important;
+}
+.location {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Phenomena-Regular';
+    color: #000000;
+    padding: 80px 0 0;
+    line-height: 20px;
+    width: calc(100% - 145px);
+    word-wrap: break-word;
+    color: #000;
+}
+.date {
+    font-size: 12px;
+    font-family: 'Phenomena-Regular';
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+}
+#frame {
+    width: 586px;
+    height: 843px;
+    position: absolute;
+    border: 2px solid white;
+    margin: 19px 17px;
+    top: 5px;
+}
+.frame {
+    width: 630px;
+    height: 890px;
+    position: relative;
+    top: 211px;
+    left: 34px;
+    border-radius: 4px;
+    background-size: contain;
+    background-color: #ad1a1a;
+}
+#arc {
+    width: 509px;
+    height: 509px;
+    border-radius: 50%;
+    margin: -40px -54px;
+    position: absolute;
+    opacity: 1;
+    z-index: 9999;
+}
+.rama{
+    position: absolute;
+    margin-top: 198px;
+    margin-left: 14px;
+    width: 664px;
+    height: 920px;
+    z-index: 1000;
+}
+.vsego{
+    max-width: 75%;
+}
+.compasSize{
+    width: 732px;
+    height: auto;
+}
+
+.workContainer{
+    justify-content: center;
+    position: relative;
+}
+
+.mapContainerOnline{
+    width: 1250px;
+    height: 700px;
+    background-color: black;  
+}
+.infoContainer{
+display: inline-block;
+
+}
+
+.options{
+    margin-bottom: 20px;
+}
+
+textarea.text-input{
+    resize: none;
+    padding: 10px 10px 12px 10px !important;
+    width: 230px;
+    font-size: 12px;
+    color: rgb(5, 19, 33);
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0px 0;
+    height: 85px;
+    border: 1px solid #e2e8eb;
+}
+textarea.location-input {
+    resize: none;
+    height: 55px;
+    padding: 10px 10px 12px 10px !important;
+    width: 230px;
+    font-size: 12px;
+    color: rgb(5, 19, 33);
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0px 0;
+    border: 1px solid #e2e8eb;
+}
+
+
+.starMapRound {
+    width: 519px;
+    height: 519px;
+    left: 54px;
+    top: 59px;
+    -webkit-mask-image: url(preview_shape_stroke_1577459368.png);
+    -webkit-mask-size: cover;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    z-index: 10000001;
+    position: absolute;
+}
